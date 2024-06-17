@@ -31,7 +31,7 @@ BM25S was designed to provide a fast, low-dependency and low-memory implementati
 
 By having minimal dependencies, `bm25s` allows everything to happen inside Python in just a few lines. However, thanks to a novel sparse eager computation strategy, `bm25s` is able to achieve speeds comparable or exceeding ElasticSearch, all while eliminate the need for setting up web servers, installing & running Java, and relying on abstracted APIs. 
 
-Additionally, we also ship with a tokenizer (`bm25s.tokenize()`), which is fast but also very simple to extend thanks to its purely Python-based implementation (although you might observe slight performance decrease on certain datasets compared to advanced analyzers found in ElasticSearch).
+Additionally, we also ship with a tokenizer (called with `bm25s.tokenize()`), which is fast but also very simple to extend thanks to its purely Python-based implementation (although you might observe slight performance decrease on certain datasets compared to advanced analyzers found in ElasticSearch).
 
 You can find below a relative speed up of `BM25S` and Elastic with respect to rank-bm25, the most popular BM25 implementation in Python. The speed up is calculated as the ratio of the queries per second of the implementation to the queries per second of `rank-bm25`.
 
