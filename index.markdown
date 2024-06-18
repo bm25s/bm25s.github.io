@@ -27,7 +27,7 @@ layout: default
 
 ## Motivation
 
-BM25S was designed to provide a fast, low-dependency and low-memory implementation of BM25 algorithms in Python. It is solely built with Numpy and Scipy, with optional dependencies for stemming and selection, as well as integrations to Huggingface Hub, allowing you to share and use other BM25 indices with ease.
+BM25S is designed to provide a fast, low-dependency and low-memory implementation of BM25 algorithms in Python. It is solely built with Numpy and Scipy, with optional dependencies for stemming and selection, as well as integrations to Huggingface Hub, allowing you to share and use other BM25 indices with ease.
 
 By having minimal dependencies, `bm25s` allows everything to happen inside Python in just a few lines. However, thanks to a novel sparse eager computation strategy, `bm25s` is able to achieve speeds comparable or exceeding ElasticSearch, all while eliminate the need for setting up web servers, installing & running Java, and relying on abstracted APIs. 
 
