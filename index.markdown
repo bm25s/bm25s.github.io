@@ -109,7 +109,7 @@ Below are some more comprehensive benchmarks comparing `bm25s` to other popular 
 | scifact          |  952.92 |   20.81 |  184.30 |     47.60 |
 
 
-The full table can be found in the [GitHub repository](https://github.com/xhluca/bm25s).
+The full table can be found in the [GitHub repository](https://github.com/xhluca/bm25s). More detailed benchmarks can be found in the [bm25-benchmarks repo](https://github.com/xhluca/bm25-benchmarks).
 
 ### Minimal package size
 
