@@ -6,7 +6,7 @@ layout: default
 
 <h1>BM25S⚡</h1>
 
-<i>An ultrafast and memory-efficient Python implementation of BM25 ranking algorithms, built on top of Numpy and Scipy.</i>
+<i>Fast and efficient implementations of BM25 algorithms in Python, built on top of Numpy and Scipy.</i>
 
 <table>
       <tr>
