@@ -36,7 +36,7 @@ By having minimal dependencies, `bm25s` allows everything to happen inside Pytho
 
 Additionally, we also ship with a tokenizer (called with `bm25s.tokenize()`), which is fast but also very simple to extend thanks to its purely Python-based implementation (although you might observe slight performance decrease on certain datasets compared to advanced analyzers found in ElasticSearch).
 
-You can find below a relative speed up of `BM25S` and Elastic with respect to rank-bm25, the most popular BM25 implementation in Python. The speed up is calculated as the ratio of the queries per second with respect to `rank-bm25`.
+You can find below a relative speed up of `BM25S` and Elastic with respect to rank-bm25 (single-threaded setting), the most popular BM25 implementation in Python. The speed up is calculated as the ratio of the queries per second with respect to `rank-bm25`, on 5 popular datasets from [BEIR](https://github.com/beir-cellar/beir).
 
 ![comparison image](assets/comparison.png)
 
