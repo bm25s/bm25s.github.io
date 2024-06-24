@@ -16,6 +16,9 @@ layout: default
             <td>
                   <a href="https://bm25s.github.io">🏠 Homepage</a>
             </td>
+            <td>
+                  <a href="https://huggingface.co/blog/xhluca/bm25s">🤗 Blog Post</a>
+            </td>
       </tr>
 </table>
 
