@@ -4,9 +4,9 @@ layout: default
 
 <div align="center">
 
-<h1>BM25S⚡</h1>
+<h1>BM25-Sparse⚡</h1>
 
-<i>Fast and efficient implementations of BM25 algorithms in Python, built on top of Numpy and Scipy.</i>
+<i>BM25S is a fast and efficient implementations of BM25 algorithms in Python, built on top of Numpy and Scipy.</i>
 
 <table>
       <tr>
