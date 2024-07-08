@@ -19,6 +19,9 @@ layout: default
             <td>
                   <a href="https://huggingface.co/blog/xhluca/bm25s">🤗 Blog Post</a>
             </td>
+            <td>
+                  <a href="https://arxiv.org/abs/2407.03618">📝 Technical Report</a>
+            </td>
       </tr>
 </table>
 
@@ -141,3 +144,19 @@ When you run `bm25s` on 1000 queries on the Natural Questions dataset (2M+ docum
 ## Does this replace ElasticSearch?
 
 `bm25s` is not a replacement for ElasticSearch, but a lightweight and efficient alternative for BM25 ranking. It is designed to be used in scenarios where you need to rank documents based on BM25 scores, but do not need the full capabilities of ElasticSearch. It is particularly useful for research and development, where you need to quickly prototype BM25-based ranking algorithms, and need to specify the BM25 parameters, algorithm, and tokenization process as precisely as possible. On the other hand, ElasticSearch is a full-fledged search engine that provides a wide range of features, including monitoring, scaling, and distributed search capabilities, and extend to non-lexical search methods. Moreover, the results for ElasticSearch sometimes exceed pure BM25 implementations due to advanced analyzers being used by default.
+
+## Citation
+
+If you use `bm25s` in your work, please use the following bibtex:
+
+```
+@misc{bm25s,
+      title={BM25S: Orders of magnitude faster lexical search via eager sparse scoring}, 
+      author={Xing Han Lù},
+      year={2024},
+      eprint={2407.03618},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2407.03618}, 
+}
+```
